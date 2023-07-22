@@ -1,5 +1,4 @@
 import { Body, Controller, Get, Post } from '@nestjs/common';
-import { randomUUID } from 'crypto';
 import { CreateTeamMemberBody } from './dtos/create-team-member-body';
 import { RocketMembersRepository } from './repositories/rocket-members-repository';
 
