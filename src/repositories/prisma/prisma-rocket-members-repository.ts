@@ -1,7 +1,7 @@
-import { PrismaService } from 'src/database/prisma.service';
 import { RocketMembersRepository } from '../rocket-members-repository';
 import { randomUUID } from 'crypto';
 import { Injectable } from '@nestjs/common';
+import { PrismaService } from '../../database/prisma.service';
 
 @Injectable()
 export class PrismaRocketMembersRepository implements RocketMembersRepository {
